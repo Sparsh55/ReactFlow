@@ -1,0 +1,35 @@
+.navbar {
+    position: fixed; /* Fix the navbar to the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Match with the video fade (semi-transparent black) */
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    padding: 10px 20px; /* Add some padding */
+    z-index: 2; /* Ensure it appears above the video */
+  }
+  
+  .logo img {
+    height: 70px; /* Adjust logo height */
+  }
+  
+  .nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Horizontal layout */
+    gap: 20px; /* Space between links */
+    margin-right: 30px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Link color */
+    font-weight: bold; /* Bold text */
+    transition: color 0.5s; /* Smooth transition */
+  }
+  
+  .nav-links li a:hover {
+    color: #007bff; /* Underline on hover */
+  }
+  

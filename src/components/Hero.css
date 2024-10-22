@@ -1,0 +1,137 @@
+.fordvideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Send the video behind other content */
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire background */
+}
+
+.hero {
+  position: relative; /* Ensure content is above the video */
+  z-index: 1; /* Ensure content appears above video */
+  color: white; /* Adjust text color */
+  text-align: center; /* Center the text */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 380px;
+  margin-top: 90px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-top: -30px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-top: -30px;
+  margin-left: -250px;
+}
+.hero h4 {
+  margin-top: -20px;
+}
+
+.hero p {
+  margin-top: -20px;
+}
+
+.Chetan {
+  color: #61dafb;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  /* background: transparent;
+  text-shadow: 0 1px black, -1px 0 #cdd2d5, -1px 2px black, -2px 1px #cdd2d5,
+    -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5,
+    -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5,
+    -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5; */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Grey color with opacity */
+  z-index: 0; /* Place it above the video but below the content */
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.hero-buttons {
+  margin-top: 10px; /* Space above buttons */
+  display: flex; /* Flexbox layout for buttons */
+  gap: 50px; /* Space between buttons */
+  justify-content: center; /* Center buttons */
+}
+
+.button {
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding for buttons */
+  border: none; /* Remove border */
+  border-radius: 20px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s; /* Smooth background transition */
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.button:hover {
+  background-color: #06038d; /* Darker blue on hover */
+  color: white;
+
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

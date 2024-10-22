@@ -1,0 +1,52 @@
+.about-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  padding: 20px; /* Optional padding */
+  background-color: 	#f4f3ef; /* Background color */
+  z-index: 1;
+}
+
+.profile-picture {
+  width: 350px; /* Adjust size */
+  height: 350px;
+  object-fit: cover;
+  margin-left: 40px; /* Maintain aspect ratio */
+  margin-top: 110px;
+ /* Circle shape */
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile h2{
+  color: #A9A9A9;
+  margin-left: 120px;
+  font-size: 2rem;
+  margin-top: -2px;
+}
+
+
+.info {
+  text-align: center; /* Center text */
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  justify-content: center; /* Center vertically */
+}
+
+.links a{
+  color: #A9A9A9;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
