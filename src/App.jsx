@@ -20,6 +20,7 @@ export default function App() {
           path: "/getstarted",
           element: <GetStarted />,
         },
+
         {
           path: "/aboutme",
           element: <AboutMe />,

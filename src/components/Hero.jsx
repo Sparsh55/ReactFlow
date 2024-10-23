@@ -30,9 +30,9 @@ const Hero = () => {
           <p>this presentaion is blakesss alice in worderland somthing soomthing</p>
           <div className="hero-buttons">
             <div className="icon"> 
-          <Link to= "/aboutme" className="button">Know Me<FontAwesomeIcon icon={faUserTie} style={{"margin-left":"10px"}} /></Link></div>
+          <Link to= "/aboutme" className="button">Know Me<FontAwesomeIcon icon={faUserTie} style={{"marginleft":"10px"}} /></Link></div>
           <div className="icon">
-          <Link to='/getstarted' className='button'>Get Started Now<FontAwesomeIcon icon={faArrowDownWideShort}  style={{"margin-left":"10px"}}/></Link>
+          <Link to='/getstarted' className='button'>Get Started Now<FontAwesomeIcon icon={faArrowDownWideShort}  style={{"marginleft":"10px"}}/></Link>
           </div>
         </div>
         </div>
