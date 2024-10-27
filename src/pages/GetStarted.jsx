@@ -323,7 +323,7 @@ const GetStarted = () => {
           nodes={nodesData}
           edges={edges}
           onNodeClick={onNodeClick}
-          style={{ width: "100%", height: "80%" }}
+          style={{ width: "100%", height: "90%" }}
         >
           <MiniMap />
 
