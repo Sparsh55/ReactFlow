@@ -1,8 +1,7 @@
 import { useState } from "react";
 import ReactFlow, { Background, Controls, MiniMap } from "react-flow-renderer";
 import NodeInfo from "./NodeInfo";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FaCopyright } from "react-icons/fa6";
+
 // import './App.css';
 
 const edges = [
