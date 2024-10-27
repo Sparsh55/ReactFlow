@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Hero.css";
 import {FontAwesomeIcon}from "@fortawesome/react-fontawesome";
-import { faUserTie } from "@fortawesome/free-solid-svg-icons";
 import { faArrowDownWideShort } from "@fortawesome/free-solid-svg-icons";
 const Hero = () => {
   return (
@@ -30,7 +29,7 @@ const Hero = () => {
           <p>this presentaion is blakesss alice in worderland somthing soomthing</p>
           <div className="hero-buttons">
             <div className="icon"> 
-          <Link to= "/aboutme" className="button">Know Me<FontAwesomeIcon icon={faUserTie} style={{"marginleft":"10px"}} /></Link></div>
+          <Link to= "/aboutme" className="button">About This Project </Link></div>
           <div className="icon">
           <Link to='/getstarted' className='button'>Get Started Now<FontAwesomeIcon icon={faArrowDownWideShort}  style={{"marginleft":"10px"}}/></Link>
           </div>

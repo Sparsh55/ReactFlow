@@ -5,7 +5,7 @@
   justify-content: center; /* Center vertically */
   height: 100vh; /* Full viewport height */
   padding: 20px; /* Optional padding */
-  background-color: 	#f4f3ef; /* Background color */
+  background-color: 	#F6F6F6; /* Background color */
   z-index: 1;
 }
 
@@ -35,6 +35,7 @@
   text-align: center; /* Center text */
   margin-left: 25px;
   margin-right: 10px;
+  margin-top: 150px;
 }
 
 .links{

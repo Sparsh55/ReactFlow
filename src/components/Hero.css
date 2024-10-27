@@ -24,8 +24,9 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 380px;
-  margin-top: 90px;
+  margin-left: 20px;
+  margin-top: 240px;
+  
 }
 
 .hero h1 {

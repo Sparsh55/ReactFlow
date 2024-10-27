@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import AboutMe from "./pages/AboutMe.jsx";
 import GetStarted from "./pages/GetStarted.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./App.css";
 
 
 export default function App() {
@@ -32,8 +33,11 @@ export default function App() {
 
   return (
     <>
+    <div style={{ width: '100vw', height: '100vh' }}>
       <RouterProvider router={router} />
+      </div>
     </>
+    
   );
 
 

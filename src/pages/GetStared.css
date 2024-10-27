@@ -1,5 +1,6 @@
-.flowchart-container {
-    height: 100vh; /* Full viewport height */
-    width: 100%; /* Full width */
-  }
-  
+/* styles.css */
+.react-flow-container {
+    width: 100%; /* Or a specific width like 800px */
+    height: 500px; /* Or any desired height */
+    border: 1px solid #ddd; /* Optional: for visibility */
+}
