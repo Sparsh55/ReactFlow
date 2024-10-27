@@ -8,7 +8,7 @@ const Hero = () => {
       <div>
         <div className="fordvideo">
           <video
-            src="../../public/4489-179376355_medium.mp4"
+            src="/4489-179376355_medium.mp4"
             autoPlay
             loop
             muted
