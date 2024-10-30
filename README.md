@@ -1,6 +1,7 @@
-# React + Vite
+# ReactFlow 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+inculdes pre loader,activelink, and custom mobile msg error 
 
 Currently, two official plugins are available:
 
