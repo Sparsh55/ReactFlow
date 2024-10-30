@@ -11,6 +11,7 @@ const Hero = () => {
             src="/4489-179376355_medium.mp4"
             autoPlay
             loop
+            
             muted
           ></video>
         </div>
@@ -26,7 +27,9 @@ const Hero = () => {
           <h4>
            I am a junior maanger at ppc at ford office banglore.
           </h4>
-          <p>this presentaion is blakesss alice in worderland somthing soomthing</p>
+          <p>this presentaion is blakesss alice in 
+            \
+            worderland somthing soomthing</p>
           <div className="hero-buttons">
             <div className="icon"> 
           <Link to= "/aboutme" className="button">About This Project </Link></div>
