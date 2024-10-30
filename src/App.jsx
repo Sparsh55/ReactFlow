@@ -5,11 +5,24 @@ import GetStarted from "./pages/GetStarted.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import Loader from './components/Loader.jsx';
+import MobileMsg from './components/MobileMsg.jsx';
 
 import "./App.css";
 
 
 export default function App() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Threshold for mobile screens
+    };
+
+    handleResize(); // Initial check
+    window.addEventListener('resize', handleResize); // Check on resize
+
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const [loading, setLoading] = useState(true);
 
@@ -19,6 +32,13 @@ export default function App() {
     }, 5000); // Simulate a 5-second loading period
     return () => clearTimeout(timer);
   }, []);
+
+  if (isMobile) {
+    return <MobileMsg />;
+  }
+  
+
+  
 
   const router = createBrowserRouter([
     {
