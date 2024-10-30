@@ -29,7 +29,7 @@ export default function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 10000); // Simulate a 5-second loading period
+    }, 15000); // Simulate a 5-second loading period
     return () => clearTimeout(timer);
   }, []);
 
