@@ -9,7 +9,7 @@ const Loader = () => {
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
-        <h4>Loading...</h4>
+        <h4>Fatching data, Loading...</h4>
       </div>
     </>
   );
