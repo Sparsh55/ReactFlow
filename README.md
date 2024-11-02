@@ -1,6 +1,6 @@
 # ReactFlow 
 
-This website is useing ReactFlow for making flowcharts and vit + react for frontend.
+This website is using ReactFlow for making flowcharts and vit + react for frontend.
 
 screenshots:-
 
