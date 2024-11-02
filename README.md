@@ -1,9 +1,17 @@
 # ReactFlow 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-inculdes pre loader,activelink, and custom mobile msg error 
+This website is useing ReactFlow for making flowcharts and vit + react for frontend.
 
-Currently, two official plugins are available:
+screenshots:-
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/896314ed-c2f5-4f5d-8b8b-a26067525278)
+
+![image](https://github.com/user-attachments/assets/f89266d8-b4f2-4d9c-bde2-3afab23e96d9)
+
+![image](https://github.com/user-attachments/assets/84247361-bbe4-4093-8206-bef2be6e075a)
+
+![image](https://github.com/user-attachments/assets/28e2006f-633d-4b3f-9d4b-2b1847f54fb0)
+
+
+
+
