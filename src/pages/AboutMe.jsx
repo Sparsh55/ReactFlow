@@ -27,7 +27,7 @@ const AboutMe = () => {
           width: "100vw",
           height: "150px",
           backgroundColor: "#002D62",
-          marginTop:"150px"
+          marginTop:"180px"
         }}
       >
         <p style={{ color: "white", textAlign: "center", paddingTop: "30px" }}>
