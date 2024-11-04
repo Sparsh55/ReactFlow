@@ -4,6 +4,8 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons/faLinkedin";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const AboutMe = () => {
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <div className="info">
@@ -46,7 +48,7 @@ const AboutMe = () => {
         }}
       >
         <p style={{ color: "white", textAlign: "center", paddingTop: "30px" }}>
-          Designed and developed by Chetan Gupta , 2023, for Ford Motors Company
+          Designed and developed by Chetan Gupta ,{currentYear} , for Ford Motors Company
           India , All right reserved!
         </p>
         <p style={{ color: "white", textAlign: "center", marginTop: "-17px" }}>

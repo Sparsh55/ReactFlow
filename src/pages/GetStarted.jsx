@@ -315,6 +315,8 @@ const GetStarted = () => {
     setSelectedNode(null);
   };
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <div>
       <div style={{ width: "100vw", height: "80vh", marginTop: "100px" }}>
@@ -342,7 +344,7 @@ const GetStarted = () => {
         }}
       >
         <p style={{ color: "white", textAlign: "center", paddingTop: "30px" }}>
-          Designed and developed by Chetan Gupta , 2023, for Ford Motors Company India , All
+          Designed and developed by Chetan Gupta , {currentYear}, for Ford Motors Company India , All
           right reserved!
         </p>
         <p style={{color: "white", textAlign: "center", marginTop: "-17px"}}> Learn More @<a  href = "https://www.ford.com/">https://www.ford.com</a></p>
