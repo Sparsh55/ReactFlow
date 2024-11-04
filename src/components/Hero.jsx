@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import "./Hero.css";
 import {FontAwesomeIcon}from "@fortawesome/react-fontawesome";
 import { faArrowDownWideShort } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 const Hero = () => {
   return (
     <>
@@ -28,13 +30,14 @@ const Hero = () => {
            I am a junior maanger at ppc at ford office banglore.
           </h4>
           <p>this presentaion is blakesss alice in 
-            \
             worderland somthing soomthing</p>
+            <h5 className="connect">connect with me on &nbsp;<FontAwesomeIcon icon={faLinkedin} /> &nbsp;&nbsp; <FontAwesomeIcon icon={faEnvelope} /></h5>
           <div className="hero-buttons">
             <div className="icon"> 
           <Link to= "/aboutme" className="button">About This Project </Link></div>
           <div className="icon">
           <Link to='/getstarted' className='button'>Get Started Now<FontAwesomeIcon icon={faArrowDownWideShort}  style={{"marginleft":"10px"}}/></Link>
+          
           </div>
         </div>
         </div>

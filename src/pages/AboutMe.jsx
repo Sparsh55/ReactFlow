@@ -8,18 +8,33 @@ const AboutMe = () => {
     <>
       <div className="info">
         <h1>--About This Project--</h1>
-        <div style={{backgroundColor:"#FFFDD0",borderRadius:"12px",padding:"12px",marginLeft:"2px",marginRight:"10px"}}>
-        <p >
-          Hello! I'm a passionate web developer with experience in building
-          dynamic web applications. I love creating user-friendly interfaces and
-          ensuring optimal performance. My journey in coding started with a
-          fascination for technology and how it can solve real-world problems.
-        </p>
-        <p>
-          In my spare time, I enjoy learning about new technologies,
-          contributing to open source, and sharing knowledge with fellow
-          developers. Let's connect!
-        </p>
+        <div
+          style={{
+            backgroundColor: "#FFFDD0",
+            borderRadius: "12px",
+            padding: "12px",
+            marginLeft: "2px",
+            marginRight: "10px",
+          }}
+        >
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum sint
+            ipsum tempore. Sit placeat eaque, sequi maiores obcaecati magnam,
+            quis commodi sunt suscipit dicta, eius corrupti repellat animi
+            numquam nulla! Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Eligendi nesciunt fuga ducimus, quibusdam repudiandae dolorum
+            repellat, quam rerum magnam, molestiae animi tempora velit excepturi
+            consequuntur aperiam voluptates! Quod, et vel.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+            quam, minus numquam modi illo id earum sunt repellendus mollitia est
+            cum. Optio dolorem consectetur quos iusto similique unde fuga
+            temporibus! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatum dolore, iure laborum dolor praesentium eligendi at ea
+            vero est neque in obcaecati quos a molestias eveniet commodi
+            distinctio debitis ipsum.
+          </p>
         </div>
       </div>
       <footer
@@ -27,14 +42,17 @@ const AboutMe = () => {
           width: "100vw",
           height: "150px",
           backgroundColor: "#002D62",
-          marginTop:"180px"
+          marginTop: "110px",
         }}
       >
         <p style={{ color: "white", textAlign: "center", paddingTop: "30px" }}>
           Designed and developed by Chetan Gupta , 2023, for Ford Motors Company
           India , All right reserved!
         </p>
-        <p style={{color: "white", textAlign: "center", marginTop: "-17px"}}> Learn More @<a  href = "https://www.ford.com/">https://www.ford.com</a></p>
+        <p style={{ color: "white", textAlign: "center", marginTop: "-17px" }}>
+          {" "}
+          Learn More @<a href="https://www.ford.com/">https://www.ford.com</a>
+        </p>
       </footer>
     </>
   );
