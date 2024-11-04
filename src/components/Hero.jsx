@@ -31,6 +31,7 @@ const Hero = () => {
           </h4>
           <p>this presentaion is blakesss alice in 
             worderland somthing soomthing</p>
+          
             <h5 className="connect">connect with me on &nbsp;<FontAwesomeIcon icon={faLinkedin} /> &nbsp;&nbsp; <FontAwesomeIcon icon={faEnvelope} /></h5>
           <div className="hero-buttons">
             <div className="icon"> 
