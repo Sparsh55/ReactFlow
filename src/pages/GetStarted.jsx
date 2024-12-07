@@ -19,7 +19,7 @@ const edges = [
 const nodesData = [
   {
     id: "1",
-    position: { x: -300, y: 400 },
+    position: { x: -380, y: 400 },
     data: {
       label: "Raw Materials",
       info: "The initial stage where raw materials are procured.",
@@ -37,7 +37,7 @@ const nodesData = [
   },
   {
     id: "2",
-    position: { x: -300, y: 580 },
+    position: { x: -380, y: 580 },
     data: {
       label: "Raw Materials",
       info: "The initial stage where raw materials are procured.",
@@ -54,7 +54,7 @@ const nodesData = [
     
   },{
     id: "3",
-    position: { x: -300, y: 760 },
+    position: { x: -380, y: 760 },
     data: {
       label: "Raw Materials",
       info: "The initial stage where raw materials are procured.",
@@ -71,7 +71,7 @@ const nodesData = [
     
   },{
     id: "4",
-    position: { x: -300, y: 940 },
+    position: { x: -380, y: 940 },
     data: {
       label: "Raw Materials",
       info: "The initial stage where raw materials are procured.",
@@ -86,22 +86,241 @@ const nodesData = [
       hover: { background: "yellow" },
     }, 
     
-  },{
-    id: "5",
-    position: { x: -50, y: 300 },
+  }
+  ,{
+    id: "A",
+    position: { x: -50, y: 160 },
     data: {
-      label: "Raw Materials",
+      label: "Production Flow as per Months",
       info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#A7C7E7",
+      background: "lightblue",
       color: "black",
-      width: 1500,
+      width: 1200,
+      height: 70,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5",
+    position: { x: -50, y: 250 },
+    data: {
+      label: "JAN",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
       height: 80,
       transition: "transform 0.3s",
       cursor: "pointer",
       hover: { background: "yellow" },
     }, 
+    
+    
+  },{
+    id: "5.1",
+    position: { x: 50, y: 250 },
+    data: {
+      label: "FEB",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },
+  {
+    id: "5.2",
+    position: { x: 150, y: 250 },
+    data: {
+      label: "MAR",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5.3",
+    position: { x: 250, y: 250 },
+    data: {
+      label: "APRIL",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5.4",
+    position: { x: 350, y: 250 },
+    data: {
+      label: "MAY",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5.5",
+    position: { x: 450, y: 250 },
+    data: {
+      label: "JUNE",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5.6",
+    position: { x: 550, y: 250 },
+    data: {
+      label: "JULY",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5.7",
+    position: { x: 650, y: 250 },
+    data: {
+      label: "AUGUST",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5.8",
+    position: { x: 750, y: 250 },
+    data: {
+      label: "SEPTEMBER",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5.9",
+    position: { x: 850, y: 250},
+    data: {
+      label: "OCTOBER",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5.10",
+    position: { x: 950, y: 250 },
+    data: {
+      label: "NOVEMBER",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
+    
+  },{
+    id: "5.11",
+    position: { x: 1050, y: 250 },
+    data: {
+      label: "DECEMBER",
+      info: "The initial stage where raw materials are procured.",
+    },
+    style: {
+      background: "red",
+      color: "black",
+      width: 100,
+      height: 80,
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
     
   },{
     id: "6",
@@ -216,7 +435,7 @@ const nodesData = [
     
   },{
     id: "12",
-    position: { x: 950, y: 940 },
+    position: { x: 650, y: 940 },
     data: {
       label: "Raw Materials",
       info: "The initial stage where raw materials are procured.",
@@ -234,7 +453,7 @@ const nodesData = [
     
   },{
     id: "13",
-    position: { x: 750, y: 1010 },
+    position: { x: 550, y: 1010 },
     data: {
       label: "Raw Materials",
       info: "The initial stage where raw materials are procured.",
