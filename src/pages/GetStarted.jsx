@@ -13,295 +13,246 @@ const edges = [
     animated: true,
     style: { stroke: "#3399ff", strokeWidth: 2 },
   },
-  {
-    id: "2-3",
-    source: "2",
-    label: "Design",
-    target: "3",
-    type: "smoothstep",
-    animated: true,
-    style: { stroke: "#3399ff", strokeWidth: 2 },
-  },
-  {
-    id: "3-4",
-    source: "3",
-    target: "4",
-    type: "smoothstep",
-    animated: true,
-    style: { stroke: "#3399ff", strokeWidth: 2 },
-  },
-  {
-    id: "4-5",
-    source: "4",
-    target: "5",
-    type: "smoothstep",
-    animated: true,
-    style: { stroke: "#3399ff", strokeWidth: 2 },
-  },
-  {
-    id: "5-6",
-    source: "5",
-    target: "6",
-    type: "default",
-    animated: true,
-    style: { stroke: "#3399ff", strokeWidth: 2 },
-  },
-  {
-    id: "6-7",
-    source: "3",
-    target: "5",
-    type: "smoothstep",
-    animated: true,
-    style: { stroke: "#3399ff", strokeWidth: 2 },
-  },
-  {
-    id: "7-8",
-    source: "11",
-    target: "8",
-    type: "smoothstep",
-    animated: true,
-    style: { stroke: "#3399ff", strokeWidth: 2 },
-  },
-  {
-    id: "8-9",
-    source: "6",
-    target: "12",
-    type: "smoothstep",
-    animated: true,
-    style: { stroke: "#3399ff", strokeWidth: 2 },
-  },
-  {
-    id: "9-10",
-    source: "5",
-    target: "10",
-    type: "smoothstep",
-    animated: true,
-    style: { stroke: "#3399ff", strokeWidth: 2 },
-  },
-  {
-    id: "10-11",
-    source: "4",
-    target: "7",
-    type: "smoothstep",
-    animated: true,
-    style: { stroke: "#3399ff", strokeWidth: 2 },
-  },
+
 ];
 
 const nodesData = [
   {
     id: "1",
-    position: { x: 50, y: 400 },
+    position: { x: -300, y: 400 },
     data: {
       label: "Raw Materials",
       info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "green",
       color: "black",
       width: 150,
-      height: 60,
-      borderRadius: "15px",
+      height: 150,
       transition: "transform 0.3s",
       cursor: "pointer",
       hover: { background: "yellow" },
     },
+    
   },
   {
     id: "2",
-    position: { x: 250, y: 400 },
+    position: { x: -300, y: 580 },
     data: {
-      label: "Cutting",
-      info: "Cutting raw materials into required shapes.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "orange",
       color: "black",
       width: 150,
-      height: 60,
-      borderRadius: "15px",
+      height: 150,
       transition: "transform 0.3s",
-      cursor:"pointer"
+      cursor: "pointer",
+      hover: { background: "yellow" },
     },
-  },
-  {
+    
+  },{
     id: "3",
-    position: { x: 450, y: 300 },
-    data: { label: "Welding", info: "Joining materials together by welding." },
+    position: { x: -300, y: 760 },
+    data: {
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
+    },
     style: {
       background: "yellow",
       color: "black",
-      width: 230,
-      height: 50,
-      borderRadius: "15px",
+      width: 150,
+      height: 150,
       transition: "transform 0.3s",
       cursor: "pointer",
-      hover: { background: "yellow" }
+      hover: { background: "yellow" },
     },
-  },
-  {
+    
+  },{
     id: "4",
-    position: { x: 650, y: 400 },
+    position: { x: -300, y: 940 },
     data: {
-      label: "Assembly",
-      info: "Assembling welded parts into the final product.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "blue",
       color: "black",
       width: 150,
-      height: 60,
-      borderRadius: "15px",
+      height: 150,
       transition: "transform 0.3s",
-      border: "null",
       cursor: "pointer",
-      hover: { background: "yellow" }
-    },
-  },
-  {
+      hover: { background: "yellow" },
+    }, 
+    
+  },{
     id: "5",
-    position: { x: 550, y: 100 },
+    position: { x: -50, y: 300 },
     data: {
-      label: "Painting",
-      info: "Applying paint to the assembled product.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "#A7C7E7",
       color: "black",
-      width: 150,
-      height: 60,
-      borderRadius: "15px",
+      width: 1500,
+      height: 80,
       transition: "transform 0.3s",
       cursor: "pointer",
-      hover: { background: "yellow" }
-    },
-  },
-  {
+      hover: { background: "yellow" },
+    }, 
+    
+  },{
     id: "6",
-    position: { x: 1050, y: 250 },
+    position: { x: -50, y: 400 },
     data: {
-      label: "Quality Control",
-      info: "Inspecting the final product to ensure quality standards.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "green",
       color: "black",
-      width: 150,
-      height: 60,
-      borderRadius: "15px",
+      width: 500,
+      height: 50,
+      borderRadius: "20px",
       transition: "transform 0.3s",
       cursor: "pointer",
-      hover: { background: "yellow" }
-    },
+      hover: { background: "yellow" },
+    }, 
+    
   },
   {
     id: "7",
-    position: { x: 1050, y: 50 },
+    position: { x: 60, y: 470 },
     data: {
-      label: "Quality Control 1",
-      info: "Inspecting the final product to ensure quality standards.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "green",
       color: "black",
-      width: 150,
-      height: 60,
-      borderRadius: "15px",
+      width: 500,
+      height: 50,
+      borderRadius: "20px",
       transition: "transform 0.3s",
       cursor: "pointer",
-      hover: { background: "yellow" }
-    },
+      hover: { background: "yellow" },
+    }, 
+    
   },
   {
     id: "8",
-    position: { x: 50, y: 550 },
+    position: { x: 400, y: 580 },
     data: {
-      label: "Quality Control 2",
-      info: "Inspecting the final product to ensure quality standards.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "orange",
       color: "black",
-      width: 150,
-      height: 60,
-      borderRadius: "15px",
+      width: 500,
+      height: 50,
+      borderRadius: "20px",
       transition: "transform 0.3s",
       cursor: "pointer",
-      hover: { background: "yellow" }
-    },
+      hover: { background: "yellow" },
+    }, 
+    
   },
   {
     id: "9",
-    position: { x: 1050, y: 150 },
+    position: { x: 600, y: 650 },
     data: {
-      label: "Quality Control 3",
-      info: "Inspecting the final product to ensure quality standards.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "orange",
       color: "black",
-      width: 150,
-      height: 60,
-      borderRadius: "15px",
+      width: 500,
+      height: 50,
+      borderRadius: "20px",
       transition: "transform 0.3s",
       cursor: "pointer",
       hover: { background: "yellow" },
-    },
-  },
-  {
+    }, 
+    
+  },{
     id: "10",
-    position: { x: 250, y: 100 },
+    position: { x: 200, y: 750 },
     data: {
-      label: "Quality Control 4",
-      info: "Inspecting the final product to ensure quality standards.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "yellow",
       color: "black",
-      width: 150,
-      height: 60,
-      borderRadius: "15px",
+      width: 500,
+      height: 50,
+      borderRadius: "20px",
       transition: "transform 0.3s",
       cursor: "pointer",
       hover: { background: "yellow" },
-    },
-  },
-  {
+    }, 
+    
+  },{
     id: "11",
-    position: { x: 150, y: 220 },
+    position: { x: 500, y: 820 },
     data: {
-      label: "Quality Control 5",
-      info: "Inspecting the final product to ensure quality standards.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "yellow",
       color: "black",
-      width: 150,
-      height: 60,
-      borderRadius: "15px",
+      width: 500,
+      height: 50,
+      borderRadius: "20px",
       transition: "transform 0.3s",
       cursor: "pointer",
       hover: { background: "yellow" },
-    },
-  },
-  {
+    }, 
+    
+  },{
     id: "12",
-    position: { x: 900, y: 500 },
+    position: { x: 950, y: 940 },
     data: {
-      label: "Quality Control 6",
-      info: "Inspecting the final product to ensure quality standards.",
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
     style: {
-      background: "#FFE599",
+      background: "blue",
       color: "black",
-      width: 150,
-      height: 60,
-      borderRadius: "15px",
+      width: 500,
+      height: 50,
+      borderRadius: "20px",
       transition: "transform 0.3s",
       cursor: "pointer",
       hover: { background: "yellow" },
+    }, 
+    
+  },{
+    id: "13",
+    position: { x: 750, y: 1010 },
+    data: {
+      label: "Raw Materials",
+      info: "The initial stage where raw materials are procured.",
     },
+    style: {
+      background: "blue",
+      color: "black",
+      width: 500,
+      height: 50,
+      borderRadius: "20px",
+      transition: "transform 0.3s",
+      cursor: "pointer",
+      hover: { background: "yellow" },
+    }, 
+    
   },
+
+  
 ];
 
 const GetStarted = () => {
@@ -323,7 +274,7 @@ const GetStarted = () => {
         <ReactFlow
           nodes={nodesData}
           edges={edges}
-          onNodeClick={onNodeClick}
+          onNodeClick={(event, node) => { if (parseInt(node.id) >= 1 && parseInt(node.id) <= 4) { onNodeClick(event, node); } }}
           style={{ width: "100%", height: "80%" }}
         >
           <MiniMap />
